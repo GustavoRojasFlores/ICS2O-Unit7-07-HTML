@@ -7,7 +7,7 @@ function calculate () {
   if (base * 0 === 0 && multiplier * 0 === 0 && base / Math.abs(base) === 1 && multiplier / Math.abs(multiplier) === 1) {
     let output = 0
     for (let counter = 0; counter < multiplier; counter++) {
-     output += base
+      output += base
     }
     text.innerHTML = 'Result: ' + output
   } else {
