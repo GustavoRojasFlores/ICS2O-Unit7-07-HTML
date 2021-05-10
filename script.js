@@ -6,7 +6,7 @@ function calculate () {
   const multiplier = parseInt(document.getElementById('b').value)
   if (base * 0 === 0 && multiplier * 0 === 0 && base / Math.abs(base) === 1 && multiplier / Math.abs(multiplier) === 1) {
     let output = 0
-    for (counter = 0; counter < multiplier; counter++) {
+    for (let counter = 0; counter < multiplier; counter++) {
      output += base
     }
     text.innerHTML = 'Result: ' + output
